@@ -48,3 +48,11 @@ export const userData = [
         "Active User": 2490,
       },
   ];
+
+export const userRows = [
+    { id: 1, Username: 'Snow', avatar: "http://www.w3bai.com/w3css/img_avatar3.png", email: "asa@mail.com", status: "active",transaction:"$120.00" },
+    { id: 2, Username: 'Snow2', avatar: "http://www.w3bai.com/w3css/img_avatar3.png", email: "asa@mail.com", status: "active",transaction:"$120.00" },
+    { id: 3, Username: 'Snow3', avatar: "http://www.w3bai.com/w3css/img_avatar3.png", email: "asa@mail.com", status: "active",transaction:"$120.00" },
+    { id: 4, Username: 'Snow4', avatar: "https://www.w3schools.com/howto/img_avatar2.png", email: "asa@mail.com", status: "active",transaction:"$120.00" },
+    { id: 5, Username: 'Snow5', avatar: "https://www.w3schools.com/howto/img_avatar2.png", email: "asa@mail.com", status: "active",transaction:"$120.00" },
+  ];
