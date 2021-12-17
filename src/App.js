@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import UserList from './pages/home/userList/UserList';
+import User from './pages/user/User';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <div className="container">
         <Sidebar/>
         <Routes>
-          <Route path="/user" element={<UserList/>}/>
+        <Route path="/user/:userId" element={<User/>}/>
+          <Route path="/users" element={<UserList/>}/>
           <Route path="/" element={<Home/>}/>
         </Routes>
       </div>
